@@ -54,7 +54,7 @@ header h1{font-family:"Graduate","Rockwell","Georgia",serif;font-weight:400;font
 header p{margin:4px 0 0;opacity:.85;font-size:.95rem}
 
 .layout{max-width:1200px;margin:0 auto}
-main{padding:12px 14px 0}
+main{padding:12px 14px 120px}
 section{margin-top:18px}
 section h2{font-size:1.05rem;font-weight:800;margin:0 0 10px;color:var(--muted)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
@@ -156,17 +156,11 @@ label.cash{display:block;font-weight:800;margin-bottom:8px}
 /* RDW Labz ad */
 .byline{display:inline-block;margin-top:10px;padding:4px 10px;border-radius:999px;background:rgba(0,0,0,.25);color:var(--on-maroon);font-size:.85rem;font-weight:700;text-decoration:none}
 .byline b{color:var(--gold)}
-.ad{margin:24px 14px 120px;padding:18px;border-radius:16px;background:#15181C;color:#F2F4F6;border:2px solid var(--gold);display:grid;gap:10px}
-.ad .brand{font-family:"Graduate","Rockwell","Georgia",serif;font-size:1.7rem;line-height:1;color:var(--gold)}
-.ad p{margin:0;line-height:1.45;font-size:1rem}
-.ad .where{color:#B9C0C7;font-size:.9rem;font-weight:600}
-.ad a.call{justify-self:start;background:var(--gold);color:#2A1A08;text-decoration:none;font-weight:800;padding:12px 16px;border-radius:12px;font-size:1.05rem}
 .sheet .mini{display:block;text-align:center;margin-top:14px;color:var(--muted);font-weight:700;font-size:.9rem;text-decoration:none}
 .sheet .mini b{color:var(--ink)}
 @media (min-width:900px){
-  .ad{margin:24px 0 40px}
   .layout{display:grid;grid-template-columns:1fr 400px;gap:20px;padding:0 20px}
-  main{padding:12px 0 0}
+  main{padding:12px 0 40px}
   .bar{display:none}
   .sheet{
     position:sticky;top:env(safe-area-inset-top,0px);inset:auto;transform:none;visibility:visible;
@@ -189,12 +183,6 @@ label.cash{display:block;font-weight:800;margin-bottom:8px}
       <a class="byline" href="tel:+18704161451">App by <b>RDW Labz</b></a>
     </header>
     <main id="menu"></main>
-    <footer class="ad">
-      <div class="brand">RDW Labz</div>
-      <p>This app was built by RDW Labz. We make custom software that takes care of everyday business hassles like phone calls, inventory and scheduling.</p>
-      <p class="where">Harrison, Arkansas</p>
-      <a class="call" href="tel:+18704161451">Call (870) 416-1451</a>
-    </footer>
   </div>
 
   <aside class="sheet" id="sheet" aria-label="Order and checkout">
